@@ -1,0 +1,6 @@
+Adobe bug bounty PoC artifact - researcher mushroom@intigriti - 2026-11-05
+
+This file was ADDED to the root of the Edge Delivery code bus for adobecom/milo by an
+unauthenticated HTTP request. No existing Adobe file was modified or deleted, and nothing
+on any Adobe site references this file. It is retained as proof for a bug bounty report
+and Adobe may delete it at any time.
