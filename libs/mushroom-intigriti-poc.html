@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Adobe bug bounty PoC - mushroom@intigriti</title>
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:46rem;margin:3rem auto;padding:0 1rem}code{background:#eee;padding:2px 6px;border-radius:3px}</style>
+</head><body>
+<h1>Adobe bug bounty PoC artifact</h1>
+<p>Researcher <b>mushroom@intigriti</b> &mdash; 2026-11-05.</p>
+<p>This page and the script it loads were <b>added</b> by an unauthenticated caller through the
+Edge Delivery admin API. <b>No existing Adobe file was modified</b> and nothing on any Adobe site
+references these two files. They exist solely as proof for a bug bounty report and may be deleted
+by Adobe at any time.</p>
+<p id="marker">script has not run</p>
+<script src="/libs/mushroom-intigriti-poc.js"></script>
+<script>
+  document.getElementById('marker').textContent =
+    'script executed on origin ' + location.origin + ' at ' + new Date().toISOString();
+</script>
+</body></html>
